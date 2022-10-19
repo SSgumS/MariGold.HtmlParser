@@ -1,26 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.2.0</Version>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>2.0.0</Version>
     <Company>MariGold</Company>
     <Product>MariGold Framework</Product>
     <Description>A utility to convert html document into a tree of HtmlNode elements. It can also parse the css styles and apply to the html elements</Description>
     <Copyright>Copyright © MariGold 2015</Copyright>
     <PackageProjectUrl>https://github.com/SSgumS/MariGold.HtmlParser</PackageProjectUrl>
     <PackageTags>MariGold Html Parser</PackageTags>
-    <PackageReleaseNotes>Bug fixes</PackageReleaseNotes>
+    <PackageReleaseNotes>Bug fixes on HTML node cloning, Upgraded to .NET Core 3.1</PackageReleaseNotes>
 	<PackageId>MariGold.HtmlParser.RtL</PackageId>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>MariGold</Authors>
-    <AssemblyVersion>1.2.0.0</AssemblyVersion>
-    <FileVersion>1.2.0.0</FileVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
 	<RepositoryUrl>https://github.com/SSgumS/MariGold.HtmlParser</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Net.Http" Version="4.3.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 
 </Project>
