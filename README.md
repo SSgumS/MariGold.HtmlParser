@@ -1,5 +1,5 @@
 ## MariGold.HtmlParser.RtL
-Based on [MariaGold.HtmlParser v1.1.1](https://www.nuget.org/packages/MariGold.HtmlParser/1.1.1).
+Based on [MariaGold.HtmlParser v2.0.0](https://www.nuget.org/packages/MariGold.HtmlParser/2.0.0).
 
 ## MariGold.HtmlParser
 MariGold.HtmlParser is a utility to parse the HTML documents into a collection of IHtmlNode type instances. You can either traverse through the document by parsing every root elements one by one or parse the entire document at once. Once an HTML element parsed, it will recursively parse all the child elements.
